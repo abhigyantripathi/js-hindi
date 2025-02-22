@@ -7,3 +7,4 @@ console.log(varToNumber)
 //33=> 33
 // 33abs=>Nan
 // true=>1, fals=>0
+
