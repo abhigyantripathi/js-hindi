@@ -55,19 +55,20 @@ users[1].email
 // console.log(tinderUser.hasOwnProperty('isLoggedIn'));
 
 
-const course = {
-    coursename: "js in hindi",
-    price: "999",
-    courseInstructor: "hitesh"
+const course= {
+    name:"abhigyan",
+    courseInstructor: "r.s. agarwal",
+    branch:"c.s.e"
 }
 
+const{courseInstructor:instructor}=course // aese likh sakte hain instead of 
 // course.courseInstructor
 
-const {courseInstructor: instructor} = course
+// fir directly:
+console.log(instructor)
 
-// console.log(courseInstructor);
-console.log(instructor);
 
+//JSON:
 // {
 //     "name": "hitesh",
 //     "coursename": "js in hindi",
